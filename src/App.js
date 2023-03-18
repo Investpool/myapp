@@ -1,3 +1,4 @@
+import React from "react";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Navbar from "./components/navbar/Navbar";
