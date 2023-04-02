@@ -8,36 +8,51 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <style>
-      .otiRegion {
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-      }
-      .otiDistricts {
-        background-color: lightgrey;
-        padding: 20px;
-      }
-      .fonts {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-
-      .grOne,
-      .grTwo {
-        display: flex;
-      }
-      .districts {
-        margin-right: auto;
-        margin-bottom: 20px;
-        background-color: lightblue;
-        font-family: sans-serif;
-        cursor: pointer;
-        color: rgb(2, 3, 20);
-        padding: 5px;
-        text-decoration: none;
-        border-radius: 10px;
-        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
-        box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
-      }
+     .otiRegion{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.otiDistricts{
+    
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: rgb(199, 210, 220);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: small;
+  
+}
+.fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: rgb(2, 3, 20);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
+}
     </style>
   </head>
   <body>
@@ -45,14 +60,18 @@
       <div class="otiRegion">
         <h2 class="fonts">OTI REGION</h2>
       </div>
+      <h2 class="fonts">OTI DISTRICTS AND METRO ASSEMBLIES</h2>
       <div class="otiDistricts">
-        <h2 class="fonts">OTI DISTRICTS AND METRO ASSEMBLIES</h2>
+        <div class="left"></div>
+        <div class="dist">
         <div class="grOne">
           <a href="jasikan.html" target="_self" class="districts">JASIKAN</a>
           <a href="krachi.html" target="_self" class="districts"
             >KRACHI NCHUMURU</a
           >
           <a href="kadjebi.html" target="_self" class="districts">KADJEBI</a>
+          </div>
+        <div class="grTwo">
           <a href="krachieast.html" target="_self" class="districts"
             >KRACHI EAST</a
           >
@@ -61,7 +80,7 @@
             >NKWANTA NORTH</a
           >
         </div>
-        <div class="grTwo">
+        <div class="grThree">
           <a href="krachiwest.html" target="_self" class="districts"
             >KRACHI WEST</a
           >
@@ -71,6 +90,8 @@
           <a href="sall.html" target="_self" class="districts">SALL</a>
         </div>
       </div>
+      <div class="right"></div>
+    </div>
     </div>
 
     <script type="text/javascript"></script>

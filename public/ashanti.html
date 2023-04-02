@@ -8,39 +8,54 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <style>
-      .ashantiRegion {
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-      }
-      .ashantiDistricts {
-        background-color: lightgrey;
-        padding: 20px;
-      }
-      .fonts {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .grOne,
-      .grTwo,
-      .grThree,
-      .grFour,
-      .grFive {
-        display: flex;
-      }
-      .districts {
-        margin-right: auto;
-        margin-bottom: 20px;
-        background-color: rgb(105, 131, 245);
-        font-family: sans-serif;
-        cursor: pointer;
-        color: white;
-        padding: 5px;
-        text-decoration: none;
-        border-radius: 10px;
-        border: 1px solid white;
-        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
-        box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
-      }
+      .ashantiRegion{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.ashantiDistricts{
+    
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: rgb(199, 210, 220);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: small;
+  
+  
+}
+.fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
+    display: flex;
+    
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+    background-color: lightblue;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: rgb(2, 3, 20);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
+}
     </style>
   </head>
   <body>
@@ -48,8 +63,10 @@
       <div class="ashantiRegion">
         <h2 class="fonts">ASHANTI REGION</h2>
       </div>
+      <h2 class="fonts">ASHANTI DISTRICTS AND METRO ASSEMBLIES</h2>
       <div class="ashantiDistricts">
-        <h2 class="fonts">ASHANTI DISTRICTS AND METRO ASSEMBLIES</h2>
+        <div class="left"></div>
+        <div class="dist">
         <div class="grOne">
           <a href="adansinorth.html" target="_self" class="districts"
             >ADANSI NORTH</a
@@ -60,6 +77,8 @@
           <a href="ahafoanosouth.html" target="_self" class="districts"
             >AHAFO ANO SOUTH</a
           >
+          </div>
+        <div class="grTwo">
           <a href="afigyakwabre.html" target="_self" class="districts"
             >AFIGYA KWABRE</a
           >
@@ -69,8 +88,8 @@
           <a href="ahafoanonorth.html" target="_self" class="districts"
             >AHAFO ANO NORTH</a
           >
-        </div>
-        <div class="grTwo">
+         </div>
+        <div class="grThree">
           <a href="asanteakimnorth.html" target="_self" class="districts"
             >ASANTE AKIM NORTH</a
           >
@@ -80,6 +99,8 @@
           <a href="asokoremampong.html" target="_self" class="districts"
             >ASOKORE MAMPONG</a
           >
+        </div>
+        <div class="grFour">
           <a href="atwimakwanwoma.html" target="_self" class="districts"
             >ATWIMA KWANWOMA</a
           >
@@ -90,7 +111,7 @@
             >ASANTE AKIM CENTRAL</a
           >
         </div>
-        <div class="grThree">
+        <div class="grFive">
           <a href="atwimamponua.html" target="_self" class="districts"
             >ATWIMA MPONUA</a
           >
@@ -100,6 +121,8 @@
           <a href="bekwaimun.html" target="_self" class="districts"
             >BEKWAI MUNICIPAL</a
           >
+        </div>
+        <div class="grSix">
           <a href="bosomtwe.html" target="_self" class="districts">BOSOMTWE</a>
           <a href="bosomefreho.html" target="_self" class="districts"
             >BOSOME FREHO</a
@@ -108,7 +131,8 @@
             >EJISU JUABEN MUNICIPAL</a
           >
         </div>
-        <div class="grFour">
+        <div class="grSeven">
+        
           <a href="ejurasekyedumase.html" target="_self" class="districts"
             >EJURA SEKYEDUMASE</a
           >
@@ -118,6 +142,8 @@
           <a href="kwabreeast.html" target="_self" class="districts"
             >KWABRE EAST</a
           >
+        </div>
+        <div class="grEight">
           <a href="mampongmun.html" target="_self" class="districts"
             >MAMPONG MUNICIPAL</a
           >
@@ -128,7 +154,7 @@
             >OBUASI MUNICIPAL</a
           >
         </div>
-        <div class="grFive">
+        <div class="grNine">
           <a href="sekyereaframplains.html" target="_self" class="districts"
             >SEKYERE AFRAM PLAINS</a
           >
@@ -138,6 +164,8 @@
           <a href="sekyereeast.html" target="_self" class="districts"
             >SEKYERE EAST</a
           >
+        </div>
+        <div class="grTen">
           <a href="sekyerekumawu.html" target="_self" class="districts"
             >SEKYERE KUMAWU</a
           >
@@ -146,6 +174,8 @@
           >
         </div>
       </div>
+      <div class="right"></div>
+    </div>
     </div>
     <script type="text/javascript"></script>
     

@@ -14,19 +14,33 @@
     justify-content: center;
 }
 .bonoDistricts{
-    background-color: lightgrey;
+    
     padding: 20px;
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 15px;
 }
 .fonts{
     font-family: sans-serif;
+    text-align: center;
 }
-.grOne, .grTwo{
+.grOne, .grTwo, .grThree, .grFour{
     display: flex;
 }
 .districts{
     margin-right: auto;
     margin-bottom: 20px;
-    background-color: lightblue;
+    
     font-family: sans-serif;
     cursor: pointer;
     color: rgb(2, 3, 20);
@@ -44,29 +58,36 @@
           <div class="bonoRegion">
             <h2 class="fonts">BONO REGION</h2>
           </div>
+          <h2 class="fonts"> BONO DISTRICTS AND METRO ASSEMBLIES</h2>
           <div class="bonoDistricts">
-            <h2 class="fonts"> BONO DISTRICTS AND METRO ASSEMBLIES</h2>
-  
-              <div class="grOne">
+            <div class="left"></div>
+            <div class="dist">
+               <div class="grOne">
                 <a href="sunyaniwest.html" target="_self" class="districts">SUNYANI WEST</a>
                 <a href="jamansouth.html" target="_self" class="districts">JAMAN SOUTH</a>
                 <a href="jamannorth.html" target="_self" class="districts">JAMAN NORTH</a>
+              </div>
+                <div class="grTwo">
                 <a href="sunyanimun.html" target="_self" class="districts">SUNYANI MUNICIPAL</a>
                 <a href="wenchimun.html" target="_self" class="districts">WENCHI MUNICIPAL</a>
                 <a href="banda.html" target="_self" class="districts">BANDA</a>
                 </div>
-                <div class="grTwo">
+                <div class="grThree">
                 <a href="berekummun.html" target="_self" class="districts">BEREKUM MUNICIPAL</a>
-                <a href="dormaamun.html" target="_self" class="districts">DORMAA MUNICIPAL</a>
-                <a href="dormaaeast.html" target="_self" class="districts">DORMAA EAST</a>
-                <a href="dormaawest.html" target="_self" class="districts">DORMAA WEST</a>
                 <a href="tain.html" target="_self" class="districts">TAIN</a>
+                <a href="dormaamun.html" target="_self" class="districts">DORMAA MUNICIPAL</a>
+                </div>
+              <div class="grFour">
+                <a href="dormaawest.html" target="_self" class="districts">DORMAA WEST</a>
+                <a href="dormaaeast.html" target="_self" class="districts">DORMAA EAST</a>
               </div>
+            </div>
+              <div class="right"></div>
             </div>
           </div>
         </div>
       </div>
-      <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      
+      <script type="text/javascript"></script>
 </body>
 </html>

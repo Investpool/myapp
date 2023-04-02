@@ -118,25 +118,4 @@ import "./rightbar.scss"
   )
 }
 
-export default Rightbar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Rightbar

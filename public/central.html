@@ -14,13 +14,30 @@
     justify-content: center;
 }
 .centralDistricts{
-    background-color: lightgrey;
-    padding: 20px;
+    
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: rgb(199, 210, 220);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: small;
+  
 }
 .fonts{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-.grOne, .grTwo, .grThree, .grFour{
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
     display: flex;
 }
 .districts{
@@ -44,40 +61,52 @@
           <div class="centralRegion">
             <h2 class="fonts">CENTRAL REGION</h2>
           </div>
+          <h2 class="fonts">CENTRAL DISTRICTS AND METRO ASSEMBLIES</h2>
           <div class="centralDistricts">
-            <h2 class="fonts">CENTRAL DISTRICTS AND METRO ASSEMBLIES</h2>
-  
+            
+            <div class="left"></div>
+            <div class="dist">
             <div class="grOne">
               <a href="aburasebuk.html" target="_self" class="districts">ABURA ASEBU KWAMANKESE</a>
               <a href="ekumfi.html" target="_self" class="districts">EKUMFI</a>
               <a href="agonawest.html" target="_self" class="districts">AGONA WEST</a>
-              <a href="asikuma.html" target="_self" class="districts">ASIKUMA ODOBEN BRAKWA</a>
-              <a href="mfantsiman.html" target="_self" class="districts">MFANTSIMAN </a>
-              <a href="assinnorthmun.html" target="_self" class="districts">ASSIN NORTH MUNICIPAL</a>
               </div>
               <div class="grTwo">
+              <a href="asikuma.html" target="_self" class="districts">ASIKUMA ODOBEN BRAKWA</a>
+              <a href="mfantsiman.html" target="_self" class="districts">MFANTSIMAN </a>
+              <a href="assinsouth.html" target="_self" class="districts">ASSIN SOUTH</a>
+              </div>
+            <div class="grThree">
               <a href="awutusenya.html" target="_self" class="districts">AWUTU SENYA</a>
               <a href="capecoastmetro.html" target="_self" class="districts">CAPE COAST METRO</a>
               <a href="effutumun.html" target="_self" class="districts">EFFUTU MUNICIPAL</a>
+              </div>
+              <div class="grFour">
               <a href="gomoaeast.html" target="_self" class="districts">GOMOA EAST</a>
               <a href="twifoattimo.html" target="_self" class="districts">TWIFO ATTIMOKWA</a>
               <a href="keeamun.html" target="_self" class="districts">KEEA MUNICIPAL</a>
             </div>
-            <div class="grThree">
+            <div class="grFive">
               <a href="ajumakoee.html" target="_self" class="districts">AJUMAKO ENYAN ESIAM</a>
-              <a href="asema.html" target="_self" class="districts">ASEMA</a>
-              <a href="agonaeast.html" target="_self" class="districts">AGONA EAST</a>
-              <a href="hemangld.html" target="_self" class="districts">HEMANG LOWER DENKYIRA</a>
               <a href="upperdenkyeraEmun.html" target="_self" class="districts">UPPER DENKYIRA EAST MUN</a>
+              <a href="agonaeast.html" target="_self" class="districts">AGONA EAST</a>
+            </div>
+            <div class="grSix">
+              <a href="hemangld.html" target="_self" class="districts">HEMANG LOWER DENKYIRA</a>
+              <a href="asema.html" target="_self" class="districts">ASEMA</a>
+              
               <a href="upperdenkyeraW.html" target="_self" class="districts">UPPER DENKYIRA WEST</a>
-              </div>
-              <div class="grFour">
+            </div>
+            <div class="grSeven">
               <a href="gomoawest.html" target="_self" class="districts">GOMOA WEST</a>
-              <a href="assinsouth.html" target="_self" class="districts">ASSIN SOUTH</a>
+              <a href="assinnorthmun.html" target="_self" class="districts">ASSIN NORTH MUNICIPAL</a>
+              
             </div>
           </div>
+          <div class="right"></div>
           </div>
-      <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+          </div>
+      
+      <script type="text/javascript"></script>
 </body>
 </html>

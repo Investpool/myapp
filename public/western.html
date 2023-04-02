@@ -15,13 +15,30 @@
     justify-content: center;
 }
 .westernDistricts{
-    background-color: lightgrey;
-    padding: 20px;
+    
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: rgb(199, 210, 220);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: small;
+  
 }
 .fonts{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-.grOne, .grTwo, .grThree{
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
     display: flex;
 }
 .districts{
@@ -45,31 +62,41 @@
             <div class="westernRegion">
                 <h2 class="fonts">WESTERN REGION</h2>
             </div>
+            <h2 class="fonts">WESTERN DISTRICTS AND METRO ASSEMBLIES</h2>
             <div class="westernDistricts">
-                <h2 class="fonts">WESTERN DISTRICTS AND METRO ASSEMBLIES</h2>
+                
+                <div class="left"></div>
+                <div class="dist">
                 <div class="grOne">
                 <a href="elembelle.html" target="_self"class="districts">ELLEMBELE</a>
                 <a href="takoradisub.html" target="_self" class="districts">TAKORADI SUB	</a>
                 <a href="esikadoketan.html" target="_self" class="districts">ESSIKADO KETAN</a>	
+                </div>
+                <div class="grTwo">
                 <a href="tarkwansuaem.html" target="_self" class="districts">TARKWA NSUAEM</a>
                 <a href="shama.html" target="_self" class="districts">SHAMA</a>
                 <a href="ahantawest.html" target="_self" class="districts">AHANTA WEST</a>
-                </div>
-                <div class="grTwo">
+            </div>
+            <div class="grThree">
                 <a href="jomoro.html" target="_self" class="districts">JOMORO</a>	
                 <a href="wassaAW.html" target="_self" class="districts">WASSA AMENFI WEST</a>
                 <a href="wassaE.html" target="_self" class="districts">WASSA EAST</a>	
+            </div>
+            <div class="grFour">
                 <a href="mpohor.html" target="_self" class="districts">MPOHOR</a>
                 <a href="nzemaeastmun.html" target="_self" class="districts">NZEMA EAST MUNICIPAL</a>	
-                <a href="presteahonivalley.html" target="_self" class="districts">PRESTEA HONI VALLEY</a>
-                </div>
-                <div class="grThree">	
+                <a href="wassaAE.html" target="_self" class="districts">WASSA AMENFI EAST</a>
+            </div>
+                <div class="grFive">	
                   <a href="wassaAC.html" target="_self" class="districts">WASSA AMENFI CENTRAL</a>
-                  <a href="wassaAE.html" target="_self" class="districts">WASSA AMENFI EAST</a>
+                  <a href="presteahonivalley.html" target="_self" class="districts">PRESTEA HONI VALLEY</a>
                 </div>
             </div>
+                <div class="right"></div>
+            
+            </div>
         </div>
-    <script type="text/javascript" src="js/jquery-5.1.3.min.js"></script>
-   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+   <script type="text/javascript"></script>
 </body>
 </html>

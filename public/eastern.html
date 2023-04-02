@@ -14,13 +14,30 @@
     justify-content: center;
 }
 .easternDistricts{
-    background-color: lightgrey;
-    padding: 20px;
+    
+    display: flex;
+}
+.left{
+  flex: 4;
+}
+.right{
+  flex: 4;
+}
+.dist{
+  flex: 4;
+  background-color: rgb(199, 210, 220);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: small;
+  
 }
 .fonts{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-.grOne, .grTwo, .grThree, .grFour, .grFive{
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
     display: flex;
 }
 .districts{
@@ -44,48 +61,60 @@
           <div class="easterRegion">
             <h2 class="fonts">EASTERN REGION</h2>
           </div>
+          <h2 class="fonts">EASTERN DISTRICTS AND METRO ASSEMBLIES</h2>
           <div class="easternDistricts">
-            <h2 class="fonts">EASTERN DISTRICTS AND METRO ASSEMBLIES</h2>
+            <div class="left"></div>
+                <div class="dist">
+            
             <div class="grOne">
               <a href="akwapimnorth.html" target="_self" class="districts">AKWAPIM NORTH</a>
               <a href="akwapimsouth.html" target="_self" class="districts">AKWAPIM SOUTH</a>
               <a href="akyemansa.html" target="_self" class="districts">AKYEMANSA</a>
+              </div>
+              <div class="grTwo">
               <a href="lowermanyakm.html" target="_self" class="districts">LOWER MANYA KROBO MUNICIPAL</a>
               <a href="asuogyaman.html" target="_self" class="districts">ASOUGYAMAN</a>
               <a href="birimsouth.html" target="_self" class="districts">BIRIM SOUTH</a>
               </div>
-              <div class="grTwo">
+            <div class="grThree">
               <a href="birimnorth.html" target="_self" class="districts">BIRIM NORTH </a>
               <a href="aframplainsnorth.html" target="_self" class="districts">AFRAM PLAINS NORTH</a>
               <a href="birimcentral.html" target="_self" class="districts">BIRIM CENTRAL</a>
+              </div>
+              <div class="grFour">
               <a href="denkyenbour.html" target="_self" class="districts">DENKYENBOUR</a>
               <a href="fanteakwa.html" target="_self" class="districts">FANTEAKWA</a>
               <a href="kwaebibrem.html" target="_self" class="districts">KWAEBIBREM</a>
             </div>
-            <div class="grThree">
+              <div class="grFive">
               <a href="kwahusouth.html" target="_self" class="districts">KWAHU SOUTH</a>
               <a href="kwahuwestmun.html" target="_self" class="districts">KWAHU WEST MUNICIPAL</a>
               <a href="kwahueast.html" target="_self" class="districts">KWAHU EAST</a>
+            </div>
+            <div class="grSix">
               <a href="aframplainssouth.html" target="_self" class="districts">AFRAM PLAINS SOUTH</a>
               <a href="ayensuano.html" target="_self" class="districts">AYENSUANO</a>
               <a href="atiwa.html" target="_self" class="districts">ATIWA</a>
-              </div>
-              <div class="grFour">
+            </div>
+            <div class="grSeven">
               <a href="uppermanyak.html" target="_self" class="districts">UPPER MANYA KROBO</a>
               <a href="newjuabenmun.html" target="_self" class="districts">NEW JUABENG MUNICIPAL</a>
               <a href="nsawamadoagyir.html" target="_self"class="districts" >NSAWAM ADOAGYIR</a>
+            </div>
+            <div class="grEight">
               <a href="suhummun.html" target="_self" class="districts">SUHUM MUNICIPAL</a>
               <a href="upperwestakim.html" target="_self"class="districts" >UPPERWEST AKIM</a>
               <a href="eastakim.html" target="_self" class="districts">EAST AKIM</a>
             </div>
-              <div class="grFive">
+            <div class="grNine">
               <a href="westakimmun.html" target="_self" class="districts">WEST AKIM MUNICIPAL</a>
               <a href="yilokrobomun.html" target="_self" class="districts">YILO KROBO MUNICIPAL</a>
             </div>
           </div>
+          <div class="right"></div>
         </div>
       </div>
-      <script type="text/javascript" src="js/jquery-5.1.3.min.js"></script>
-   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      
+   <script type="text/javascript"></script>
 </body>
 </html>

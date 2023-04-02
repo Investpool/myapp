@@ -8,82 +8,91 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <style>
-      .northernregion {
-        display: flex;
-      }
-      .northernRegion {
-       
-        text-align: center;
-        justify-content: center;
-      }
-      .left {
-        flex: 3;
-      }
-      .right {
-        flex: 3;
-      }
-      .northernDistricts {
-       
-        padding: 20px;
-        flex: 6;
-      }
-      .fonts {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .grOne,
-      .grTwo,
-      .grThree {
-        display: flex;
-      }
-      .districts {
-        margin-right: auto;
-        margin-bottom: 20px;
-        background-color: lightblue;
-        font-family: sans-serif;
-        cursor: pointer;
-        color: rgb(2, 3, 20);
-        padding: 5px;
-        text-decoration: none;
-        border-radius: 10px;
-        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
-        box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
-      }
+     .northernRegion{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.northernDistricts{
+    
+    display: flex;
+}
+.left{
+  flex: 4.5;
+}
+.right{
+  flex: 4.5;
+}
+.dist{
+  flex: 3;
+  background-color: rgb(199, 210, 220);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: small;
+  
+}
+.fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.grOne, .grTwo, .grThree, .grFour, 
+.grFive, .grSix, .grSeven, .grEight, 
+.grNine, .grTen{
+    display: flex;
+}
+.districts{
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: rgb(2, 3, 20);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.68);
+}
     </style>
   </head>
   <body>
     <div class="northernregion">
-      
-      <div class="left">
-        <h1>hkhkhk</h1>
-      </div>
+      <div class="westernRegion">
+        <h2 class="fonts">NORTHERN REGION</h2>
+    </div>
+      <h2 class="fonts">NORTHERN DISTRICTS AND METRO ASSEMBLIES</h2>
       <div class="northernDistricts">
-        <h2 class="fonts">NORTHERN DISTRICTS AND METRO ASSEMBLIES</h2>
+        
+        <div class="left"></div>
+        <div class="dist">
         <div class="grOne">
           <a href="gushiegu.html" target="_self" class="districts">GUSHIEGU</a>
           <a href="zabzugu.html" target="_self" class="districts">ZABZUGU </a>
           <a href="karaga.html" target="_self" class="districts">KARAGA</a>
-          <a href="kpandai.html" target="_self" class="districts">KPANDAI </a>
-        </div>
+          </div>
         <div class="grTwo">
+          <a href="kpandai.html" target="_self" class="districts">KPANDAI </a>
           <a href="sagnerigu.html" target="_self" class="districts">SAGNERIGU</a>
           <a href="kumbungo.html" target="_self" class="districts">KUMBUNGO</a>
+          </div>
+        <div class="grThree">
           <a href="nanumbasouth.html" target="_self" class="districts">NANUMBA SOUTH</a>
           <a href="saboba.html" target="_self" class="districts">SABOBA</a>
-        </div>
-        <div class="grThree">
           <a href="mion.html" target="_self" class="districts">MION</a>
+          </div>
+        <div class="grFour">
           <a href="savelugunantmun.html" target="_self" class="districts">SAVELUGU NANTON MUNICIPAL</a>
           <a href="tamalemetro.html" target="_self" class="districts">TAMALE METRO</a>
           <a href="tolon.html" target="_self" class="districts">TOLON </a>
         </div>
-        <div class="grThree">
+        <div class="grFour">
         <a href="nanumbanorth.html" target="_self" class="districts">NANUMBA NORTH</a>
           <a href="tatalesangu.html" target="_self" class="districts">TATALE SANGULE</a>
           <a href="yendimun.html" target="_self" class="districts">YENDI MUNICIPAL</a>
         </div>
           </div>
-        <div class="right">
-        <h1>orororo</h1>
+        <div class="right"></div>
       </div>
       </div>
       
